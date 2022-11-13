@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    font-size: large;
+    background-color: rgb(255,243,238);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 2%;
+}
+.column {
+    float: left;
+    width: 35%;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+#nom{
+    font-size: 40;
+    color: rgba(41, 86, 210, 0.87);
+    font-style: italic;
+}
+#foto{
+    padding-top: 20px;
+    display: table-row-group;
+}
+#titol-seccio{
+    color: rgba(41, 86, 210, 0.87);
+    font-style: italic;
+}
